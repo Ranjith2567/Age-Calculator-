@@ -1,0 +1,72 @@
+
+/* Full screen background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+
+}
+
+/* Center the card */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styling */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.card button {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: linear-gradient(to right, #3db194, #144f84);
+}
+
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
